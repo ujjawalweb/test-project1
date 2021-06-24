@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!--font-->
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Armata&display=swap" rel="stylesheet">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
+</head>
+<body class="bg">
+	
+ <div class="container my">
+<div class="row">
+	<div class="col-md-6 wdth">
+<img src="images/title.jpg" class="mypic">
+<h2 class="ludo">Welcome To <br>Ludo Dhamaal !</h2>
+
+<h4>Already have an account?</h4>
+
+
+
+<button class="btn btn--skew btn-default download" style=" background:  #e9a401!important;border-radius: 0px !important;top:60px;left:70px;width:185px;
+color:#000!important;border: none;">
+	<span>Download and Play</span>
+</button>
+	</div>
+
+
+	<div class="col-md-6 second-side">
+		<h2>SIGNUP & START WINING</h2>
+	<form>
+		<div class="form-row my-row">
+		  <div class="form-group col-md-6">
+			<label for="inputEmail4"></label>
+			<input type="email" class="form-control" id="inputEmail4" placeholder="Username or Email" required>
+		  </div>
+		  <div class="form-group col-md-6">
+			<label for="inputPassword4"></label>
+			<input type="password" class="form-control" id="inputPassword4" placeholder="Password" required>
+		  </div>
+		</div>
+
+		<div class="form-row my-row">
+			<div class="form-group col-md-6 ">
+			  <label for="inputEmail4"></label>
+			  <input type="text" class="form-control" id="inputphn" placeholder="Phone No" required>
+			</div>
+			<div class="col-md-6">
+			<button class="box">Send OTP <i class="fa fa-refresh"></i></button>
+			</div>
+		  </div>
+
+
+
+		<div class="form-row">
+		  <div class="form-group col-md-12">
+			<label for="inputCity"></label>
+			<input type="text" class="form-control" id="inputotp" placeholder="Enter OTP" style="width:39% !important;">
+		  </div>
+		
+		 
+		</div>
+
+		<div class="form-row my-row">
+			<div class="col-md-6">
+		  <div class="form-check mtop">
+			<input class="form-check-input" type="checkbox" id="myCheck" onclick="myFunction()">
+			<label class="form-check-label  promo"  disabled for="gridCheck1">  
+				&nbsp;  Have a Promo Code?
+			</label>
+		  </div>
+		</div>
+
+		  <div class="form-group col-md-6">
+			<label for="inputCity"></label>
+			<input type="text" class="form-control" id="text" placeholder="Enter your Promocode">
+		  </div>
+		
+
+		</div>
+
+
+		<div class="form-row">
+			<div class="col-md-12">
+				<div class="form-check mtop">
+				  <input class="form-check-input chk" type="checkbox" id="gridChecks" style="position: relative;top:-20px;">
+				  <label class="form-check-label" for="gridChecks1">&nbsp;
+				I accept to the term and conditions , privacy policy and <br>&nbsp;&nbsp;&nbsp;<span class="para">confirm that I am legally of age</span>
+				  </label>
+				</div>
+		  
+		   <div class="col-md-12 mtops">
+
+			<button class="btn btn--skew btn-default">
+				<span>Sign Up</span>
+			</button> &nbsp; &nbsp;
+			<button class="btn btn--skew btn-default" style=" background:  #e9a401!important;border-radius: 0px !important;
+			color:#000!important;">
+				<span>Cancel</span>
+			</button>
+			
+		   </div>
+		  </div>
+	
+	  </form>
+</div>
+</div>
+ </div> 
+	<script>
+function myFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("myCheck");
+  // Get the output text
+  var text = document.getElementById("text");
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";
+  }
+}
+		</script>
+</body>
+</html>
